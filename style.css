@@ -1,3 +1,5 @@
+@import url(reset.css);
+
 :root{
     --primary-pale-blue: hsl(225, 100%, 94%);
  --primary-bright-blue:hsl(245, 75%, 52%);
@@ -12,4 +14,62 @@ body{
     background-image: url("images/pattern-background-desktop.svg");
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        background-image: url("./images/pattern-background-mobile.svg"); 
+}url(style.css)
+}
+
+main {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+.my-class{
+    color: rgb(138, 138, 198);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-class2{
+color: aquamarine;
+.my-class9{
+    display: flex;
+    align-content: right;
+    align-items: right;
+    justify-content: right;
+}
+
+
+}
+button{
+    background-color: blue;
+    color: white;
+  display: flex;
+  align-items: center; 
+  align-content: center;
+  widt   
+}
+.my-class4{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.my-class100{
+    border-radius: 10px;
+
+}
+.my-class9{
+    align-content: right;
+    align-items: right;
+    justify-content: right;
 }
