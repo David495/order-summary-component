@@ -15,6 +15,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 1rem;
+    position: relative;
 }
 
 @media screen and (max-width: 768px) {
@@ -31,45 +32,64 @@ main {
     background-color: white;
     border-radius: 1rem;
 }
-.my-class{
-    color: rgb(138, 138, 198);
-    display: flex;
+
+.text-content {
     align-content: center;
-    align-items: center;
     justify-content: center;
+    padding: 7px;
+    text-align: center;
+    align-items: center;
 }
-
-.my-class2{
-color: aquamarine;
-.my-class9{
+.plan-box {
     display: flex;
-    align-content: right;
-    align-items: right;
-    justify-content: right;
-}
-
-
-}
-button{
-    background-color: blue;
-    color: white;
-  display: flex;
-  align-items: center; 
-  align-content: center;
-  widt   
-}
-.my-class4{
-    align-content: center;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+
+.plan-box .my-head {
+    margin-right: 150px;
+}
+   
+.hero-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proceed-btn {
+ width: 300px;
+    margin-top: 5px;
+    text-decoration: none;
+    text-align: center;
+ border: 10px solid  hsl(245, 75%, 52%);
+ border-radius: 5px;
+ background-color:hsl(245, 75%, 52%); 
+ color: white;
     
 }
-.my-class100{
-    border-radius: 10px;
 
+.hero1-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.my-class9{
-    align-content: right;
-    align-items: right;
-    justify-content: right;
+
+.cancel-btn {
+  margin-top: 15px;
+    width: 300px;
+    margin-top: 5px;
+    text-decoration: none;
+    text-align: center;
+ border: 10px solid hsl(225, 100%, 94%)
+ border-radius: 5px;
+ background-color: hsl(225, 100%, 94%)
+ color: white;
 }
+
+
+
+
+
+
+
+
